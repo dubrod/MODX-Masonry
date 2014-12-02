@@ -1,0 +1,19 @@
+html,body{margin: 0; padding: 0;}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.item {
+  float: left;
+  border: 2px solid #eee;
+  background-size: cover;
+  background-position: center center;
+}
+
+img{max-width:100%;}
