@@ -4,6 +4,7 @@ MODX-Masonry
 Simple &amp; Advanced Tutorials to integrate Masonry with MODX
 
 Cloud URL = http://masonry.clients.modxcloud.com/
+
 Masonry Repo = https://github.com/desandro/masonry
 
 ##Goals
