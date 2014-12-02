@@ -10,9 +10,10 @@ Masonry Repo = https://github.com/desandro/masonry
 ##Goals
 
  1. Basic Starter DIY Tutorials
- 2. Auto-watch images in a folder
- 3. Mobile Upload
- 4. More Themes
+ 2. Vanilla JS Lightbox
+ 3. Auto-watch images in a folder
+ 4. Mobile Upload
+ 5. More Themes
 
 ##Installation
 
