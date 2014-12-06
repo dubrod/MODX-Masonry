@@ -1,0 +1,56 @@
+<!doctype html>
+<head lang="en-us">
+  <base href="[[++site_url]]" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Masonry MODX Tutorial</title>
+  <meta name="description" content="MODX Snippet with Masonry">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+  [[$MasonryConfig? &width=`200` &theme=`demo` &lightbox=`true`]]
+
+</head>
+<!-- Lightbox must build after Masonry, duh -->
+<body onload="masonryLightbox()">
+
+<div class="container" id="mason">
+
+  <div class="item" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/desk-shot.jpeg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/desk-shot.jpeg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+    
+  <div class="item w2" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/ids-city-bg.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/ids-city-bg.jpg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+  
+  <div class="item w2" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/mountains.jpeg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/mountains.jpeg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+  
+  <div class="item" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/rustic-hmpg.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/rustic-hmpg.jpg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+
+  <div class="item" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/desk-shot.jpeg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/desk-shot.jpeg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+    
+  <div class="item w2" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/ids-city-bg.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/ids-city-bg.jpg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+  
+  <div class="item w2" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/mountains.jpeg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/mountains.jpeg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+  
+  <div class="item" 
+    style="background-image: url([[phpthumbof? &input=`assets/img/rustic-hmpg.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"
+    data-fullsize="[[phpthumbof? &input=`assets/img/rustic-hmpg.jpg` &options=`&w=800&zc=0&aoe=0&far=0`]]"></div>
+  
+  <dialog id="cover"><img src="" alt="" id="lightboxImg"><button id="closecover">Close</button></dialog>
+
+</div>	
+
+    
+</body>
+</html>
