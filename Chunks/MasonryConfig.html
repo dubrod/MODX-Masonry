@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="[[++site_url]]assets/css/[[+theme]].css">
+[[+lightbox:is=`true`:then=`<link rel="stylesheet" type="text/css" href="[[++site_url]]assets/css/masonry-lightbox.css">`]]
+<style>
+.item {width: [[+width]]px; height: [[+width]]px;}
+.item.w2 { width: [[+width:mpy=`2`]]px;}
+</style>
+<script src="[[++site_url]]assets/js/masonry.pkgd.min.js"></script>
+<script>
+docReady( function() {
+
+    var container = document.querySelector('#mason');
+      
+    var msnry = new Masonry( container, {
+      // options...
+      itemSelector: '.item',
+      columnWidth: [[+width]]
+    });
+
+});
+</script>
+[[+lightbox:is=`true`:then=`<script src="[[++site_url]]assets/js/masonry-lightbox.js"></script>`]]
