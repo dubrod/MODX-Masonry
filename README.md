@@ -3,14 +3,16 @@ MODX-Masonry
 
 Simple &amp; Advanced Tutorials to integrate Masonry with MODX
 
-Cloud URL = http://masonry.clients.modxcloud.com/
+Demo URL = http://masonry.clients.modxcloud.com/
+
+Lightbox URL = http://masonry.clients.modxcloud.com/index.php?id=2
 
 Masonry Repo = https://github.com/desandro/masonry
 
 ##Goals
 
  1. Basic Starter DIY Tutorials
- 2. Vanilla JS Lightbox
+ 2. Vanilla JS Lightbox [COMPLETED]
  3. Auto-watch images in a folder
  4. Mobile Upload
  5. More Themes
