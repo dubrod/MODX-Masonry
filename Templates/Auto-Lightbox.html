@@ -1,0 +1,29 @@
+<!doctype html>
+<head lang="en-us">
+  <base href="[[++site_url]]" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Masonry MODX Tutorial</title>
+  <meta name="description" content="MODX Snippet with Masonry">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+  [[$MasonryConfig? &width=`200` &theme=`demo` &lightbox=`true`]]
+
+</head>
+<!-- Lightbox must build after Masonry, duh -->
+<body onload="masonryLightbox()">
+
+  [[!MasonryCreate? 
+    &getImages_Folder=`assets/img` 
+    &getImages_Ext =`jpg,jpeg`
+    &lrgImgOffset = `2`
+    &getImages_Page_Tpl =`Masonry_Page_Tpl`
+    &getImages_Image_Tpl =`Masonry_Image_Tpl`
+    &thumbWidth = `200`
+    &largeWidth = `900`
+    &lightbox = `1`
+  ]]
+
+    
+</body>
+</html>
