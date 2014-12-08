@@ -6,11 +6,11 @@ function showImage(e) {
 	
 	//load vars
 	//console.log(this.dataset.fullsize);
-	fullsize = document.getElementById("lightboxImg");
+	fullsize = document.getElementById("masonryImg");
     fullsize.src = this.dataset.fullsize;
     
     //create cover / modal
-    cover = document.getElementById("cover");
+    cover = document.getElementById("masonryCover");
     testdialog=document.createElement("dialog");
     testdialog.setAttribute("open", "");
     if (!testdialog.open){
@@ -19,7 +19,7 @@ function showImage(e) {
 	cover.showModal();
 	
 	//setup the close
-	document.getElementById("closecover").onclick = function() { 
+	document.getElementById("masonryCoverClose").onclick = function() { 
 	  fullsize.src = "";  
       cover.close(); 
     }
