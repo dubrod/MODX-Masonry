@@ -7,17 +7,19 @@ Demo URL = http://masonry.clients.modxcloud.com/
 
 Lightbox URL = http://masonry.clients.modxcloud.com/index.php?id=2
 
+Auto Lightbox URL = http://masonry.clients.modxcloud.com/index.php?id=3
+
 Masonry Repo = https://github.com/desandro/masonry
 
 ##Goals
 
  1. Basic Starter DIY Tutorials
  2. Vanilla JS Lightbox [COMPLETED]
- 3. Auto-watch images in a folder
+ 3. Auto-watch images in a folder [COMPLETED]
  4. Mobile Upload
  5. More Themes
 
-##Installation
+##Manual Basic Installation
 
  1. Upload - `assets/js/masonry.pkgd.min.js`
  2. Upload - `assets/css/demo.css`
@@ -33,7 +35,7 @@ Masonry Repo = https://github.com/desandro/masonry
  
     ```
     <div class="container" id="mason">
-      <div class="item" style="background-image: url([[phpthumbof? &input=`folder/file.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"></div>
+      <div class="masonry-item" style="background-image: url([[phpthumbof? &input=`folder/file.jpg` &options=`&w=400&zc=0&aoe=0&far=0`]]);"></div>
     </div> <!-- /#mason -->
     ```
     
