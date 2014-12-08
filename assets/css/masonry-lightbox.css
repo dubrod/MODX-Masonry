@@ -1,8 +1,8 @@
 body { min-height: 100vh; }
 
-.item{cursor: pointer;}
+.masonry-item{cursor: pointer;}
 
-dialog {
+#masonryCover {
     position: fixed;
     left: 50%;
     top: 50%; 
@@ -12,16 +12,19 @@ dialog {
     transform: translate(-50%, -50%);
     margin: auto;
     border: solid;
-    padding: 1em;
     background: white;
     color: black;
     display: none;
     opacity: 0; 
     border: none;
+    overflow:hidden;
+    padding: 1em;
 }
-dialog[open] {
+
+#masonryCover[open] {
     display: block;
 }
+
 .backdrop {
     position: fixed;
     background-color: rgba(0,0,0,0.1);
@@ -31,14 +34,15 @@ dialog[open] {
     right: 0;
 }
 
-dialog button { 
+#masonryCover button { 
   border: none;
   background: none;
   font-size: 1.2rem;
   cursor:pointer;
 }
-dialog[open] { 
-  max-width: 700px;
+
+#masonryCover[open] { 
+  max-width: 80%;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -46,7 +50,8 @@ dialog[open] {
   transition: all 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
 }
-dialog[open]::backdrop { 
+
+#masonryCover[open]::backdrop { 
   background: rgba(0,0,0,0.9);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -55,6 +60,6 @@ dialog[open]::backdrop {
   -webkit-backface-visibility: hidden;
 }
 
-dialog img { 
+#masonryImg{ 
   width: 100%; height: auto; 
 }
