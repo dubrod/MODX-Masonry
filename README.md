@@ -16,8 +16,9 @@ Masonry Repo = https://github.com/desandro/masonry
  1. Basic Starter DIY Tutorials
  2. Vanilla JS Lightbox [COMPLETED]
  3. Auto-watch images in a folder [COMPLETED]
- 4. Mobile Upload
- 5. More Themes
+ 4. Dropbox API 
+ 5. Mobile Upload
+ 6. More Themes
 
 ##Manual Basic Installation
 
