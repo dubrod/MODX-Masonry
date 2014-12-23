@@ -18,7 +18,7 @@
  *
  * USAGE:
  *
- * [[!MasonryCreate? 
+ * [[MasonryCreate? 
  *   &getImages_Folder=`assets/img` 
  *   &getImages_Ext =`jpg,jpeg`
  *   &lrgImgOffset = `2`
@@ -28,6 +28,8 @@
  *   &largeWidth = `900`
  *   &lightbox = `1`
  * ]]
+ *
+ *  lrgImgOffset = the # iteration for the larger image class
  *
  */
 
